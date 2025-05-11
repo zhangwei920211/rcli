@@ -45,7 +45,7 @@ footer = """
 # remove the leading and trailing whitespace from the templates
 trim = true
 postprocessors = [
-    { pattern = '\$REPO', replace = "https://github.com/zhangwei920211/rust-rcli" }, # replace repository URL
+    { pattern = '\$REPO', replace = "https://github.com/zhangwei920211/rcli" }, # replace repository URL
 ] # postprocessors
 
 [git]
